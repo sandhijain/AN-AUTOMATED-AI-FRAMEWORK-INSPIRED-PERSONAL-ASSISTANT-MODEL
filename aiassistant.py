@@ -107,7 +107,7 @@ if __name__ == "__main__":
             speak(f" Well,the time is {strTime}")
 
         elif 'open code' in query:
-            codePath = " "
+            codePath = "it is the path of the folder where code editor is installed "
             os.startfile(codePath)
             
         elif 'open gmail' in query:
@@ -116,7 +116,7 @@ if __name__ == "__main__":
             time.sleep(5)
         
         elif 'open my website' in query:
-            webbrowser.open_new_tab("https://utmselfhelp.wordpress.com/")
+            webbrowser.open_new_tab("https:// abc123.com/")
             speak("I have opened your website") 
             time.sleep(5)
         
@@ -128,8 +128,8 @@ if __name__ == "__main__":
         elif 'ask' in query:
          speak('I can answer to computational and geographical questions  and what question do you want to ask now')
          question=takeCommand()
-         app_id="4JTPV8-5G6XU5APPT"
-         client = wolframalpha.Client('4JTPV8-5G6XU5APPT')
+         app_id="That app id which you obtained after making account"
+         client = wolframalpha.Client('That app id which you obtained after making account ')
          res = client.query(question)
          answer = next(res.results).text
          speak(answer)
@@ -142,13 +142,13 @@ if __name__ == "__main__":
           speak("Noted the mobile Number")
           message = takeCommand()
           pywhatkit.sendwhatmsg_instantly("+91 mobile","message")
-          pywhatkit.sendwhatmsg_to_group( 'https://chat.whatsapp.com/J6YQLqMXezn7NG61roCE0r','This is a test message of desktop ai assistant', time_hour, time_min)
+          pywhatkit.sendwhatmsg_to_group( 'https://chat.whatsapp.com/id','This is a test message of desktop ai assistant', time_hour, time_min)
         
         elif 'joke' in query:
             speak(pyjokes.get_joke())
             
         elif 'open book' in query:
-             pdfReader = PyPDF2.PdfFileReader(open('Alice_in_Wonderland.pdf', 'rb'))
+             pdfReader = PyPDF2.PdfFileReader(open('your_pdf_name.pdf', 'rb'))
              for page in range(pdfReader.numPages ):
               text = pdfReader.getPage(page).extractText() 
               engine.say(text)
@@ -158,7 +158,7 @@ if __name__ == "__main__":
     
         elif 'email' in query:
             query = query.replace('email',"")
-            pywhatkit.send_mail('shachi2024ds@gmail.com', 'shachiwriter1324ds','Default', query,'sandhijain24.tundla@gmail.com')
+            pywhatkit.send_mail(' sent-to-xyz@gmail.com', ' password','Default', query,' base-email@gmail.com ')
 
            
         elif'goodbye' in query or 'ok bye' in query or 'stop'in query:
