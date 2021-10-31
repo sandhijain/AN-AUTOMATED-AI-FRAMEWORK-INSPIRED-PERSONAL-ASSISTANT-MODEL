@@ -9,6 +9,6 @@ It can perform the following tasks:
 6. Tell me the time and date 
 7. Send message on whatsapp
 8. Send Email
-9. PLay my favourite music on youtube
+9. Play my favourite music on youtube
 10. Search on wikipedia
 11. Open code editor for me
