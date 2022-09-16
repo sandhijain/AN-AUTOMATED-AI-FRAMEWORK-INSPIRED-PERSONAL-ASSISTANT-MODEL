@@ -1,4 +1,4 @@
-# Jarvis
+# AN AUTOMATED AI FRAMEWORK INSPIRED PERSONAL ASSISTANT MODEL
 This is a desktop AI assistant.
 It can perform the following tasks:
 1. Open any website
