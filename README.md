@@ -12,3 +12,5 @@ It can perform the following tasks:
 9. Play my favourite music on youtube
 10. Search on wikipedia
 11. Open code editor for me
+12. Record voice of user and convert it into a pdf or text document
+13. Can take screenshots on the voice command by the user.
